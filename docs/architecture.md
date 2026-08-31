@@ -29,7 +29,7 @@ The goal is not to automatically block user text. Instead, the application detec
 shadow-ai-privacy-auditor/
 ├── README.md
 ├── requirements.txt
-├── environment.yml
+├── environment-local.yml
 ├── src/
 │   ├── app.py
 │   ├── detectors.py
