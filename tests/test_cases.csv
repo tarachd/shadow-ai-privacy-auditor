@@ -1,0 +1,18 @@
+case_id,text,expected_values,expected_subtypes,case_type
+1,"During the team meeting, team lead Swaminathan Gayle gave an important suggestion while data engineer Chris Dutta presented the work.",Swaminathan Gayle|Chris Dutta,PERSON_NAME|PERSON_NAME,risky
+2,I emailed the raw data files to chris.dutta@example.com.,chris.dutta@example.com,EMAIL,risky
+3,You can reach the fictional coordinator at 876-555-0343.,876-555-0343,PHONE_NUMBER,risky
+4,The fictional applicant entered SSN 123-45-6789 on the sample form.,123-45-6789,SSN,risky
+5,The fictional payment card number is 4111 1111 1111 1111.,4111 1111 1111 1111,CREDIT_CARD,risky
+6,The fictional test account uses password = SummerDemo123!,SummerDemo123!,PASSWORD,risky
+7,The sample configuration contains api_key = sk_test_example123456.,sk_test_example123456,API_KEY_OR_TOKEN,risky
+8,Employee EMP-0793 prepared the report for client CLIENT-2098 and volunteer VOL-4821.,EMP-0793|CLIENT-2098|VOL-4821,EMPLOYEE_ID|CLIENT_ID|VOLUNTEER_ID,risky
+9,Thomas Nandan can be reached at thomas.nandan@example.com and has employee ID EMP-0793.,Thomas Nandan|thomas.nandan@example.com|EMP-0793,PERSON_NAME|EMAIL|EMPLOYEE_ID,risky
+10,The password policy requires at least 12 characters.,,,safe
+11,The report contains 123 pages and 45 figures from 6789 records.,,,safe
+12,The project meeting is scheduled for 3:00 PM.,,,safe
+13,"The password policy was reviewed, and no credentials were included.",,,safe
+14,The fictional account uses pwd: DemoValue456!,DemoValue456!,PASSWORD,risky
+15,"To reach Zurich, email him at zurich.sen@example.org or call him at +1 484-555-0198.",Zurich|zurich.sen@example.org|+1 484-555-0198,PERSON_NAME|EMAIL|PHONE_NUMBER,risky
+16,The email address of our director is director[at]example[dot]com.,director[at]example[dot]com,EMAIL,risky
+17,Use SummerDemo123! to access the fictional training account.,SummerDemo123!,PASSWORD,risky
